@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    margin: 80px 0;
+
+}
+
+.container{
+    display: flex;
+    position: relative;
+    font-family: 'lato';
+}
+.meal-container{
+    flex:1;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+    margin:30px;
+    font-family: 'lato';
+    
+}
+
+.detail-container{
+    flex:0 0 20%;
+    background-color: green;
+    margin-right:30px;
+    padding:20px;
+    height:500px;
+    position: sticky;
+    border-radius: 8px;
+    font-family: 'lato';
+}
